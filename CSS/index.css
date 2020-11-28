@@ -1,0 +1,95 @@
+
+*{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+}
+
+body{
+  display:flex;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color:#8AE5FD; 
+  background-image: url('../img/bank.jpg');
+  background-repeat: round;
+}
+
+.formulario{  
+  position: relative;
+  height: 25rem;
+  box-sizing: border-box;
+  background-color: #8AC2FD;
+  animation: glow 1s ease-out infinite alternate;
+  border-radius: 2rem;
+}
+
+.text{
+  font-size: 1.2rem;
+}
+
+form{
+  margin-top:40px;
+}
+form.field{
+  margin-top: 40px;
+  display: flex;
+}
+
+h1{
+  color:white;
+}
+
+.field input, .field button {
+  height: 2rem;
+  width: 70%;
+  outline: none;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  animation: glow 1s ease-out infinite alternate;
+  text-align: center;
+}
+
+button{
+  margin-top:60px;
+  border-radius: 10px;
+  font-weight:600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  color:blue;
+}
+
+button:hover{
+  color:blue;
+  background-color:white;
+  border: 2px solid blue;
+  box-shadow:0 0 10px rgba(0,0,255,.3),
+             0 0 20px rgba(0,0,255,.2),
+             0 0 40px rgba(0,0,255,.1);
+}
+
+button:active {
+  box-shadow: 0 6px #666;
+  transform: translateY(3px);
+}
+
+input:focus{
+  color:blue;
+  box-shadow:0 0 10px rgba(0,0,255,.3),
+             0 0 20px rgba(0,0,255,.2),
+             0 0 40px rgba(0,0,255,.1);
+}
+
+@keyframes glow{
+  0%{
+    border-color:#333539;
+    box-shadow:0 0 10px rgba(0,0,255,.2),
+               inset 0 0 10px #007CFF;
+  }
+  100%{
+    border-color:blue;
+    box-shadow: 0 0 40px rgba(0,0,255,.2),
+                inset 0 0 10px rgba(0,0,255,.1)
+  }
+}

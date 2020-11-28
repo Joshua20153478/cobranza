@@ -1,0 +1,21 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('../img/user.jpg');
+  font-size: 1.8rem;
+}
+
+h1{
+  text-align: center;
+}
+
+.payments-container{
+  padding: 0 4rem;
+}
+
+#CloseSesion{
+  padding: 10rem;
+  font-weight: 700;
+  color: black;
+}

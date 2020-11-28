@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('../img/prop.jpeg');
+}
+
+header{
+  right:0;
+  background-color:#130706;
+  padding: 1rem;
+  text-align: right;
+}
+
+#CloseSesion{
+  text-decoration: none;
+  color: white;
+}
+
+
+.FORHIDE{
+  display: none;
+}
+
+.FORSHOWOPTIONS{
+  border: 1px solid #694331;
+  margin: 1rem;
+  background-color: #ae7d63;
+  justify-content: center;
+  text-align: center;
+}
+
+.OPTIONBAR{
+  border: 1px solid #ae7d63;
+  background-color: #694331;
+  color: white;
+  text-align: center;
+}
+
+.OPTIONBAR a{
+  color: #130706;
+  font-weight: 700;
+}
+
+.OPTIONBAR li{
+  margin: 0 1rem;
+}
+
+
+
+.FORMS{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.OPTIONS{
+  display: flex;
+}
+  .OPTIONS li{
+    list-style: none;
+    cursor: pointer;
+  }
+
+.CARDMI{
+  border: 1px solid black;
+  width: 25%;
+  background-color: #FFD2B5;
+  margin: 1rem;
+  border-radius: 5px 5px 30px 5px;
+}
+
+#ADDUSERS input{
+  text-align: center;
+  margin:.2rem;
+  border-radius: 1.5rem;
+  height: 1.2rem;
+  background-color: #FFD2B5;
+}
+
+#NewUserBtn{   
+  border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #875d49;}
+
+#CobroAUsuarios{    
+  text-align: initial;
+  width: 30%;
+  margin: 0 auto;
+}
+
+#NEWCHARGE input{
+  margin-bottom: .8rem;
+  text-align: center;
+  border-radius: .5rem;
+    background-color: #FFD2B5;
+}
+
+#CrearCobroBtn{
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #875d49;
+}
+
+#PAYMENTS input, select, #PayInfo input{
+  border-radius: .5rem;
+    background-color: #FFD2B5;
+}
+
+#PAYMENTS button,  #NewPayBtn{
+  border-radius: .5rem;
+    background-color: #FFD2B5;
+    margin: .5rem 0;
+}
+
